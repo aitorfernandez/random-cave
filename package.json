@@ -1,0 +1,14 @@
+{
+  "name": "random-cave",
+  "version": "1.0.0",
+  "description": "Cellular Automata Method for Generating Random Cave-Like Levels",
+  "repository": "git@github.com:aitorfernandez/random-cave.git",
+  "author": "Aitor <helloimaitor@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "uglify": "./node_modules/uglify-js/bin/uglifyjs sketch.js -o sketch.min.js --compress"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.4.9"
+  }
+}

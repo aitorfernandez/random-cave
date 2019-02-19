@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <meta name="description" content="Random Cave-Like Levels">
+  <meta name="author" content="Aitor Fernandez">
+  <link rel="icon" href="data:,">
+  <title>Random Cave</title>
+  <style>
+    body {
+      font-family: 'Helvetica', sans-serif;
+      font-size: 62.5%;
+      overflow: hidden;
+      padding: 0;
+    }
+
+    #content {
+      position: absolute;
+      z-index: 9;
+    }
+
+    footer {
+      text-align: center;
+      position: absolute;
+      z-index: 99;
+      position: fixed;
+      left: 0px;
+      bottom: 0px;
+      height: 30px;
+      width: 100%;
+    }
+
+    footer a {
+      font-size: 12px;
+      color: grey;
+      padding: 0 5px;
+    }
+
+    footer a:hover {
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content"></div>
+  <footer>
+    <nav>
+      <a href="http://aitorfernandez.com" target="_blank" title="Personal portfolio">
+        aitorfernandez.com
+      </a>
+      <a href="https://github.com/aitorfernandez/random-cave" target="_blank" title="View random-cave on Github">
+        View random-cave on Github
+      </a>
+    </nav>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+  <script src="./sketch.min.js"></script>
+</body>
+
+</html>
